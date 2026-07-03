@@ -1,0 +1,19 @@
+# Ignorar as pastas clonadas completas (evita gigabytes de código público)
+linux-stable/
+busybox/
+
+# Ignorar os subdiretórios gerados na build do initramfs
+initramfs/bin/
+initramfs/sbin/
+initramfs/etc/
+initramfs/proc/
+initramfs/sys/
+initramfs/dev/
+initramfs/usr/
+
+# Ignorar imagens finais e arquivos compactados pesados
+*.cpio.gz
+bzImage
+
+# Garantir que o seu script customizado de boot NÃO seja ignorado
+!initramfs/init
