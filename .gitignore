@@ -1,4 +1,4 @@
-# Ignorar as pastas clonadas completas (evita gigabytes de código público)
+# Ignorar as pastas clonadas
 linux-stable/
 busybox/
 
